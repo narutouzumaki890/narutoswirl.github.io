@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Share+Tech&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open sans;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+position: relative;
+
+}
+
+header{
+    background: black;
+    color: white;
+    display: flex;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+border-radius: 50%;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+    margin-left: 100px;
+    color: white;
+}
+li{
+    color: white;
+}
+h1{
+    color: #d299c2;
+}
+
+img{
+    margin-left: 50px;
+    border-radius: 50px;
+transition: 0.4s all ease-in-out;
+
+}
+img:hover{
+    transform: scale(1.2);
+}
+span{
+    font-size: 24px;
+    font-weight: 800;
+    font-family: cursive;
+}
+
+button{
+    color: #000000;
+    background: #d299c2;
+    height: 50px;
+    width: 100px;
+    font-weight: 800;
+}
+button:hover{
+    transition: 0.4s all ease-in-out;
+
+    transform: rotate(45deg);
+}
+
+.form-box{
+    height: 600px;
+    width: 400px;
+    background: yellow;
+    border-radius: 50px;
+   margin-left: 400px;
+   margin-top: 100px;
+}
+
+span{
+    display: flex;
+}
+input{
+    width: 80%;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+textarea{
+    height: 200px;
+    width: 80%;
+    margin-left: 20px;
+
+
+}
+button{
+    margin-left: 20px;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer{
+    color: black;
+}
